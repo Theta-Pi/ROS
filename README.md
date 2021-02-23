@@ -1,6 +1,6 @@
 ### ROS basic concepts
 
-[Start here](http://wiki.ros.org/ROS/Concepts)
+[Start here](http://wiki.ros.org/ROS/Concepts){:target="_blank"}
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
