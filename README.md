@@ -5,10 +5,14 @@ Start [here](http://wiki.ros.org/ROS/Concepts){:target="_blank"} and explain to 
 -nodes
 -topics and services. Whats the difference? 
 
-1choose IDE
+### First steps
+-[Creating a workspace for catkin](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 
-##create catkin workspace
-##create package
+source setup.bash in order to use the catkin workspace
+```source ~/catkin_ws/devel/setup.bash```
+
+-[Creating a catkin Package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage)
+```catkin_create_pkg <package_name>```
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -17,6 +21,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
+
 Syntax highlighted code block
 
 # Header 1
