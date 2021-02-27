@@ -16,6 +16,28 @@ source ~/catkin_ws/devel/setup.bash```
 ```markdown
 catkin_create_pkg <package_name>```
 
+### Basic commands
+
+- roscore: starts a new ROS master
+- rosnode list: lists nodes in a ROS computation graph
+- rostopic list: lists topics ina ROS computation graph
+
+Run a new node: rosrun [package name] [node name]
+```markdown rosrun turtlesim turtlesim_node```
+turtle_teleop_key
+
+get info of node: ```markdown rosnode info /turtlesim```
+get info of topic: ```markdown rostopic info /turtle1/cmd_vel```
+show the contents os a message: ```markdown rosmsg show geometry_msgs/Twist ```
+
+Publish message on a topic using CMD:
+rostopic pub -r 10
+/turtle1/cmd_vel
+geometry_msgs/Twist
+{linear: {x: 0.1, y: 0.0, z: 0.0}, angular {x: 0.0, y: 0.0, z: 0.0}}
+this will move the robot repeatedly (-r) for 10sec with x velocity = 1
+Show the ROS computation graph: ```markdown rosrun rqt_graph rqt_graph```
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
