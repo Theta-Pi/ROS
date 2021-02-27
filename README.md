@@ -10,7 +10,7 @@ Start [here](http://wiki.ros.org/ROS/Concepts){:target="_blank"} and explain to 
 
 source setup.bash in order to use the catkin workspace
 ```markdown
-source ~/catkin_ws/devel/setup.bash```
+source ~/catkin_ws/devel/setup.bash ```
 
 -[Creating a catkin Package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage){:target="_blank"} 
 ```markdown
