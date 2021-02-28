@@ -23,7 +23,7 @@ source setup.bash in order to use the catkin workspace:
 Run a new node: rosrun [package name] [node name]
 `rosrun turtlesim turtlesim_node`
 
-turtle_teleop_key
+`turtle_teleop_key`
 
 get info of node: `rosnode info /turtlesim`
 
@@ -43,3 +43,6 @@ geometry_msgs/Twist
 this will move the robot repeatedly (-r) for 10sec with x velocity = 1
 
 Show the ROS computation graph: `rosrun rqt_graph rqt_graph`
+
+### Resources
+- [Markdown cheatlist](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet){:target="_blank"} 
