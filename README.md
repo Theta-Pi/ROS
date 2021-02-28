@@ -46,3 +46,4 @@ Show the ROS computation graph: `rosrun rqt_graph rqt_graph`
 
 ### Resources
 - [Markdown cheatlist](https://aksakalli.github.io/jekyll-doc-theme/docs/cheatsheet/){:target="_blank"} 
+- [jekyll-theme](https://github.com/topics/jekyll-theme){:target="_blank"} 
