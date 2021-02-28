@@ -1,19 +1,19 @@
 ### ROS basic concepts
 
 Start [here](http://wiki.ros.org/ROS/Concepts){:target="_blank"} and explain to yourself
--ROS master
--nodes
--topics and services. Whats the difference? 
+- ROS master
+- nodes
+- topics and services. Whats the difference? 
 
 ### First steps
--[Creating a workspace for catkin](http://wiki.ros.org/catkin/Tutorials/create_a_workspace){:target="_blank"}
+- [Creating a workspace for catkin](http://wiki.ros.org/catkin/Tutorials/create_a_workspace){:target="_blank"}
 
-source setup.bash in order to use the catkin workspace
+source setup.bash in order to use the catkin workspace:
 ```markdown
 source ~/catkin_ws/devel/setup.bash
 ```
 
--[Creating a catkin Package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage){:target="_blank"} 
+- [Creating a catkin Package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage){:target="_blank"} 
 ```markdown
 catkin_create_pkg <package_name>```
 
