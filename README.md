@@ -37,12 +37,15 @@ Publish message on a topic using CMD:
 pub -r 10 
 /turtle1/cmd_vel
 geometry_msgs/Twist
-{linear: {x: 0.1, y: 0.0, z: 0.0}, angular {x: 0.0, y: 0.0, z: 0.0}} 
+'{linear: {x: 0.1, y: 0.0, z: 0.0}, angular {x: 0.0, y: 0.0, z: 0.0}}' 
 ```
 
 this will move the robot repeatedly (-r) for 10sec with x velocity = 1
 
 Show the ROS computation graph: `rosrun rqt_graph rqt_graph`
+
+`rostopic` to list available rostopic commands
+`rostopic echo /turtle1/cmd_vel` will echo cmd_vel messages
 
 ### Resources
 - [Markdown cheatlist](https://aksakalli.github.io/jekyll-doc-theme/docs/cheatsheet/){:target="_blank"} 
