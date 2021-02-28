@@ -8,14 +8,10 @@ Start [here](http://wiki.ros.org/ROS/Concepts){:target="_blank"} and explain to 
 ### First steps
 - [Creating a workspace for catkin](http://wiki.ros.org/catkin/Tutorials/create_a_workspace){:target="_blank"}
 
-source setup.bash in order to use the catkin workspace:
-```markdown
-source ~/catkin_ws/devel/setup.bash
-```
+source setup.bash in order to use the catkin workspace: ``` source ~/catkin_ws/devel/setup.bash ```
 
 - [Creating a catkin Package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage){:target="_blank"} 
-```markdown
-catkin_create_pkg <package_name>```
+``` catkin_create_pkg <package_name> ```
 
 ### Basic commands
 
