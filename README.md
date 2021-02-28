@@ -45,4 +45,4 @@ this will move the robot repeatedly (-r) for 10sec with x velocity = 1
 Show the ROS computation graph: `rosrun rqt_graph rqt_graph`
 
 ### Resources
-- [Markdown cheatlist](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet){:target="_blank"} 
+- [Markdown cheatlist](https://aksakalli.github.io/jekyll-doc-theme/docs/cheatsheet/){:target="_blank"} 
