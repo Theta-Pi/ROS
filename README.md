@@ -14,8 +14,6 @@ source setup.bash in order to use the catkin workspace:
 - [Creating a catkin Package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage){:target="_blank"} 
 - `catkin_create_pkg <package_name>`
 
-### Basic commands
-
 - roscore: starts a new ROS master
 - rosnode list: lists nodes in a ROS computation graph
 - rostopic list: lists topics ina ROS computation graph
@@ -28,6 +26,8 @@ Run a new node: rosrun [package name] [node name]
 get info of node: `rosnode info /turtlesim`
 
 get info of topic: `rostopic info /turtle1/cmd_vel`
+
+get info on message `rosmsg show geometry_msgs/Twist`
 
 show the contents os a message: `rosmsg show geometry_msgs/Twist`
 
