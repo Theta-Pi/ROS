@@ -47,6 +47,8 @@ Show the ROS computation graph: `rosrun rqt_graph rqt_graph`
 `rostopic` to list available rostopic commands
 `rostopic echo /turtle1/cmd_vel` will echo cmd_vel messages
 
+- [Publisher / Subscriber](http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers){:target="_blank"} 
+
 ### Resources
 - [Markdown cheatlist](https://aksakalli.github.io/jekyll-doc-theme/docs/cheatsheet/){:target="_blank"} 
 - [jekyll-theme](https://github.com/topics/jekyll-theme){:target="_blank"} 
