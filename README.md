@@ -49,6 +49,28 @@ Show the ROS computation graph: `rosrun rqt_graph rqt_graph`
 
 - [Publisher / Subscriber](http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers){:target="_blank"} 
 
+Creating custom messages:
+- [ROS wiki link here](http://wiki.ros.org/action/show/msg){:target="_blank"} 
+
+in package.xml add:
+<build_depend>message_generation</build_depend>
+<exec_depend>message_runtime</exec_depend>
+
+in CMakeLists.txt add inside:
+find_package(catkin REQUIRED COMPONENTS
+  ...
+  message_generation
+)
+add_message_files(
+   ...
+   IoTSensor.msg 
+) 
+catkin_package(
+  ...
+  CATKIN_DEPENDS ... message_runtime
+  ...
+)
+dont forget to complile by using catkin_make in catkin_ws
 ### Resources
 - [Markdown cheatlist](https://aksakalli.github.io/jekyll-doc-theme/docs/cheatsheet/){:target="_blank"} 
 - [jekyll-theme](https://github.com/topics/jekyll-theme){:target="_blank"} 
