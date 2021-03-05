@@ -47,6 +47,8 @@ Show the ROS computation graph: `rosrun rqt_graph rqt_graph`
 `rostopic` to list available rostopic commands
 `rostopic echo /turtle1/cmd_vel` will echo cmd_vel messages
 
+# Publisher / Subscriber
+
 - [Publisher / Subscriber](http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers){:target="_blank"} 
 
 Creating custom messages:
@@ -61,16 +63,25 @@ find_package(catkin REQUIRED COMPONENTS
   ...
   message_generation
 )
+
 add_message_files(
    ...
    IoTSensor.msg 
 ) 
+
 catkin_package(
   ...
   CATKIN_DEPENDS ... message_runtime
   ...
 )
 dont forget to complile by using catkin_make in catkin_ws
+
+# Services
+list of available services: ` rosservice list `
+info: ` rosservice info /spawn `
+type info: ` rossrv info turtlesim/Spawn `
+[rosservice command-line tool](http://wiki.ros.org/rosservice){:target="_blank"} 
+
 ### Resources
 - [GAZEBO Robot simulation](http://gazebosim.org/){:target="_blank"} 
 - [ROS Reinforcement Learning](http://wiki.ros.org/reinforcement_learning/Tutorials/Reinforcement%20Learning%20Tutorial){:target="_blank"} 
