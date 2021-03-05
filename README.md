@@ -72,5 +72,12 @@ catkin_package(
 )
 dont forget to complile by using catkin_make in catkin_ws
 ### Resources
+- [GAZEBO Robot simulation](http://gazebosim.org/){:target="_blank"} 
+- [ROS Reinforcement Learning](http://wiki.ros.org/reinforcement_learning/Tutorials/Reinforcement%20Learning%20Tutorial){:target="_blank"} 
+
+
+
+github
 - [Markdown cheatlist](https://aksakalli.github.io/jekyll-doc-theme/docs/cheatsheet/){:target="_blank"} 
 - [jekyll-theme](https://github.com/topics/jekyll-theme){:target="_blank"} 
+
