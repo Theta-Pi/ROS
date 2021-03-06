@@ -52,7 +52,7 @@ Show the ROS computation graph: `rosrun rqt_graph rqt_graph`
 - [Publisher / Subscriber](http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers){:target="_blank"} 
 
 Creating custom messages:
-- [ROS wiki link here](http://wiki.ros.org/action/show/msg){:target="_blank"} 
+- [ROS msg wiki link here](http://wiki.ros.org/action/show/msg){:target="_blank"} 
 
 in package.xml add:
 <build_depend>message_generation</build_depend>
@@ -78,9 +78,38 @@ dont forget to complile by using catkin_make in catkin_ws
 
 # Services
 list of available services: ` rosservice list `
-info: ` rosservice info /spawn `
+
+info: ` rosservice info /spawn ` 
+
 type info: ` rossrv info turtlesim/Spawn `
+
 [rosservice command-line tool](http://wiki.ros.org/rosservice){:target="_blank"} 
+
+Creating custom messages:
+
+- [ROS srv wiki link here](http://wiki.ros.org/action/show/srv){:target="_blank"} 
+
+in package.xml add (similar to msg creation):
+<build_depend>message_generation</build_depend>
+<exec_depend>message_runtime</exec_depend>
+
+in CMakeLists.txt add inside:
+find_package(catkin REQUIRED COMPONENTS
+  ...
+  message_generation
+)
+
+add_service_files(
+ ... 
+ AddTwoInts.srv
+)
+
+complile by using catkin_make in catkin_ws
+
+
+
+
+
 
 ### Resources
 - [GAZEBO Robot simulation](http://gazebosim.org/){:target="_blank"} 
