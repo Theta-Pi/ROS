@@ -33,11 +33,11 @@ show the contents os a message: `rosmsg show geometry_msgs/Twist`
 
 Publish message on a topic using CMD:
 
-``` rostopic
-pub -r 10 
+``` 
+rostopic pub -r 10 
 /turtle1/cmd_vel
 geometry_msgs/Twist
-'{linear: {x: 0.1, y: 0.0, z: 0.0}, angular {x: 0.0, y: 0.0, z: 0.0}}' 
+'{linear: {x: 0.1, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}' 
 ```
 
 this will move the robot repeatedly (-r) for 10sec with x velocity = 1
