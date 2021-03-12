@@ -107,6 +107,8 @@ add_service_files(
 complile by using catkin_make in catkin_ws
 
 need to write some stuff on:
+publisher/subscriber example
+service example
 motion example
 running multiple nodes with launch file
 
