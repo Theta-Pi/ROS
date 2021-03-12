@@ -106,8 +106,9 @@ add_service_files(
 
 complile by using catkin_make in catkin_ws
 
-
-
+need to write some stuff on:
+motion example
+running multiple nodes with launch file
 
 
 
@@ -117,7 +118,4 @@ complile by using catkin_make in catkin_ws
 
 
 
-github
-- [Markdown cheatlist](https://aksakalli.github.io/jekyll-doc-theme/docs/cheatsheet/){:target="_blank"} 
-- [jekyll-theme](https://github.com/topics/jekyll-theme){:target="_blank"} 
 
