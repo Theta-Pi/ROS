@@ -118,6 +118,9 @@ running multiple nodes with launch file
 - [GAZEBO Robot simulation](http://gazebosim.org/){:target="_blank"} 
 - [ROS Reinforcement Learning](http://wiki.ros.org/reinforcement_learning/Tutorials/Reinforcement%20Learning%20Tutorial){:target="_blank"} 
 
+- [ROS on Raspberry Pi: Best Practices](https://roboticsbackend.com/using-ros-on-raspberry-pi-best-practices/#Externalize_heavy_computation_work){:target="_blank"} 
+- [GaiTech ROS Programming](http://edu.gaitech.hk/ros/ros-programming-basics.html){:target="_blank"} 
+- [Teleoperation with ROS and Raspberry Pi](https://www.hackster.io/dmitrywat/bittle-teleoperation-with-ros-and-raspberry-pi-22c454){:target="_blank"} 
 
-
-
+- [ROS melodic on Raspbian Buster](https://blog.danielchen.cc/2020/01/14/ROS-melodic-on-Raspbian-Buster/){:target="_blank"} 
+- [Multiple machine setup for ROS melodic](https://blog.danielchen.cc/2020/01/16/Multiple-machine-setup-for-ROS-melodic/){:target="_blank"} 
